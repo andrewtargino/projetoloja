@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: Calibri, sans-serif;
+}    
 .a_logo{
     display: flex;
     justify-content: center;
@@ -11,9 +14,10 @@
 .a_pesquisa{
     display: flex;
     flex-direction: row;
-    gap: 200px;
+    justify-content: space-between;
     padding-left: 20px;
     padding-top: 20px;
+    padding-right: 20px;
 }
 .a_line{
     margin: 10px auto;
@@ -40,6 +44,7 @@ input::placeholder{
 .a_box1{
     position: absolute;
     bottom: 70px;
+    padding-left: 30px;
 }
 .a_box-collection2{
     padding-top: 20px;
@@ -49,7 +54,8 @@ input::placeholder{
 }
 .a_box2{
     position: absolute;
-    bottom: 70px;
+    bottom: 120px;
+    padding-left: 60px;
 }
 .a_box-collection3{
     padding-top: 20px;
@@ -59,11 +65,78 @@ input::placeholder{
 }
 .a_box3{
     position: absolute;
-    bottom: 70px;
+    bottom: 120px;
+    padding-left: 60px;
 }
 .a_best-seller{
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 60px 0;
+}
+h3{
+    font-size: 16px;
+    color: rgb(61, 61, 61);
+    font-weight: lighter;
+}
+h1{
+    font-weight: normal;
+    font-size: 32px;
+    letter-spacing: -1px;
+    line-height: 32px;
+}
+.letter_fine{
+    font-weight: lighter;
+    font-size: 32px;
+    letter-spacing: -1px;  
+    padding-top: 6px;
+}
+.roupa1{
+    margin-left: 15px;
+}
+.roupa2{
+    margin-left: 10px;
+}
+.roupa3{
+    margin-left: 10px;
+}
+.a_box_products{
+    display: flex;
+    flex-direction: row;
+}
+.box_desc{
+    display: flex;
+    flex-direction: row;
+    margin-left: 18px;
+    font-size: 16px;
+    gap:15px;
+}
+.box_money{
+    display: flex;
+    flex-direction: row;
+    margin-left: 18px;
+    gap:100px;
+}
+.a_subscribe{
+    display: flex;
+    padding: 60px 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(105, 105, 105);
+    margin-top: 60px;
+    color: white;
+}
+.botton-subscribe{
+    display: flex;
+    background-color: rgb(90, 190, 90);
+    width: 300px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.h3_subscribe{
+    color: white;
+    margin-left: -40px;
 }
